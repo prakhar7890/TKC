@@ -4,7 +4,8 @@ Static restaurant website for **TKC (The Kattori Chammach)**.
 
 ## Pages
 
-- `main.html` - homepage
+- `index.html` - homepage for deployment
+- `main.html` - homepage backup/source copy
 - `menu.html` - full menu
 - `gallery.html` - dish gallery
 - `about.html` - restaurant overview
@@ -20,7 +21,7 @@ No build step is required.
 
 ## Local Preview
 
-Open `main.html` directly in a browser.
+Open `index.html` directly in a browser.
 
 ## Assets
 
@@ -50,7 +51,7 @@ Because this is a plain static website, you can deploy it with GitHub Pages.
    `Folder: / (root)`
 5. Save the settings.
 
-If you want GitHub Pages to load the site automatically as the root page, rename `main.html` to `index.html` or duplicate it as `index.html`.
+`index.html` is already included, so GitHub Pages can load the site directly from the repository root.
 
 ### Netlify
 
